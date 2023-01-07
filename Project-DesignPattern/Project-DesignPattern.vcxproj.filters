@@ -15,63 +15,39 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="03.AbstractFactory\源.cpp">
+    <ClCompile Include="04.BuilderPattern\Class\AbstractBuilder.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="03.AbstractFactory\Class\AbstractBall.cpp">
+    <ClCompile Include="04.BuilderPattern\Class\ConcreteBuilderA.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="03.AbstractFactory\Class\BasketBall.cpp">
+    <ClCompile Include="04.BuilderPattern\Class\ConcreteBuilderB.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="03.AbstractFactory\Class\FootBall.cpp">
+    <ClCompile Include="04.BuilderPattern\Class\Director.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="03.AbstractFactory\Class\AbstractShirt.cpp">
+    <ClCompile Include="04.BuilderPattern\Class\House.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="03.AbstractFactory\Class\BasketBallShirt.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="03.AbstractFactory\Class\FootBallShirt.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="03.AbstractFactory\Class\AbstractFactory.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="03.AbstractFactory\Class\BasketBallFactory.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="03.AbstractFactory\Class\FootBallFactory.cpp">
+    <ClCompile Include="04.BuilderPattern\源.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="03.AbstractFactory\Class\AbstractBall.h">
+    <ClInclude Include="04.BuilderPattern\Class\AbstractBuilder.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="03.AbstractFactory\Class\BasketBall.h">
+    <ClInclude Include="04.BuilderPattern\Class\ConcreteBuilderA.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="03.AbstractFactory\Class\FootBall.h">
+    <ClInclude Include="04.BuilderPattern\Class\ConcreteBuilderB.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="03.AbstractFactory\Class\AbstractShirt.h">
+    <ClInclude Include="04.BuilderPattern\Class\Director.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="03.AbstractFactory\Class\BasketBallShirt.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="03.AbstractFactory\Class\FootBallShirt.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="03.AbstractFactory\Class\AbstractFactory.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="03.AbstractFactory\Class\BasketBallFactory.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="03.AbstractFactory\Class\FootBallFactory.h">
+    <ClInclude Include="04.BuilderPattern\Class\House.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

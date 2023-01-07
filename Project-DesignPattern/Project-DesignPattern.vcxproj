@@ -19,27 +19,19 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="03.AbstractFactory\源.cpp" />
-    <ClCompile Include="03.AbstractFactory\Class\AbstractBall.cpp" />
-    <ClCompile Include="03.AbstractFactory\Class\BasketBall.cpp" />
-    <ClCompile Include="03.AbstractFactory\Class\FootBall.cpp" />
-    <ClCompile Include="03.AbstractFactory\Class\AbstractFactory.cpp" />
-    <ClCompile Include="03.AbstractFactory\Class\AbstractShirt.cpp" />
-    <ClCompile Include="03.AbstractFactory\Class\BasketBallShirt.cpp" />
-    <ClCompile Include="03.AbstractFactory\Class\FootBallShirt.cpp" />
-    <ClCompile Include="03.AbstractFactory\Class\BasketBallFactory.cpp" />
-    <ClCompile Include="03.AbstractFactory\Class\FootBallFactory.cpp" />
+    <ClCompile Include="04.BuilderPattern\Class\AbstractBuilder.cpp" />
+    <ClCompile Include="04.BuilderPattern\Class\ConcreteBuilderA.cpp" />
+    <ClCompile Include="04.BuilderPattern\Class\ConcreteBuilderB.cpp" />
+    <ClCompile Include="04.BuilderPattern\Class\Director.cpp" />
+    <ClCompile Include="04.BuilderPattern\Class\House.cpp" />
+    <ClCompile Include="04.BuilderPattern\源.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="03.AbstractFactory\Class\AbstractBall.h" />
-    <ClInclude Include="03.AbstractFactory\Class\BasketBall.h" />
-    <ClInclude Include="03.AbstractFactory\Class\FootBall.h" />
-    <ClInclude Include="03.AbstractFactory\Class\AbstractFactory.h" />
-    <ClInclude Include="03.AbstractFactory\Class\AbstractShirt.h" />
-    <ClInclude Include="03.AbstractFactory\Class\BasketBallShirt.h" />
-    <ClInclude Include="03.AbstractFactory\Class\FootBallShirt.h" />
-    <ClInclude Include="03.AbstractFactory\Class\BasketBallFactory.h" />
-    <ClInclude Include="03.AbstractFactory\Class\FootBallFactory.h" />
+    <ClInclude Include="04.BuilderPattern\Class\AbstractBuilder.h" />
+    <ClInclude Include="04.BuilderPattern\Class\ConcreteBuilderA.h" />
+    <ClInclude Include="04.BuilderPattern\Class\ConcreteBuilderB.h" />
+    <ClInclude Include="04.BuilderPattern\Class\Director.h" />
+    <ClInclude Include="04.BuilderPattern\Class\House.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
